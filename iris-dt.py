@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import dagshub
-dagshub.init(repo_owner='campusx-official', repo_name='mlflow-dagshub-demo', mlflow=True)
+dagshub.init(repo_owner='NimmiChhipa', repo_name='MLops_MLflow_Dagshub', mlflow=True)
 
-mlflow.set_tracking_uri("https://dagshub.com/campusx-official/mlflow-dagshub-demo.mlflow")
+mlflow.set_tracking_uri("https://dagshub.com/NimmiChhipa/MLops_MLflow_Dagshub.mlflow")
 
 # Load the iris dataset
 iris = load_iris()
